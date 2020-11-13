@@ -190,12 +190,13 @@ a:hover {
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 15%;
+  border-radius: 10%;
 }
 
 @media (min-width: 768px) {
   .box-shadow-full {
     padding: 3rem;
+    border-radius:0; 
   }
 }
 
@@ -240,6 +241,7 @@ a:hover {
 .list-ico span {
   color: #37CC5B;
   margin-right: 10px;
+  
 }
 
 /*------/ Ico Circle /------*/
@@ -321,7 +323,7 @@ a:hover {
   text-align: center;
   line-height: 1;
   font-size: 16px;
-  border-radius: 50%;
+  border-radius: 51%;
   right: 15px;
   bottom: 15px;
   transition: background 0.5s;
@@ -768,6 +770,7 @@ a:hover {
 
 .about-mf .about-img img {
   margin-left: 10px;
+  border-radius: 50%!important;
 }
 
 @media (min-width: 767px) {
@@ -784,7 +787,7 @@ a:hover {
 .skill-mf .progress {
   background-color: #cde1f8;
   margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
+  border-radius: 20px;
   height: .7rem;
 }
 
